@@ -30,6 +30,3 @@ dist-ssr
 .env.production.local
 .env.local
 
-# AI/Agent related
-.ai/
-.gemini/
