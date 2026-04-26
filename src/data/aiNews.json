@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "Model",
+      "title": "Claude 4 Opus Duyuruldu: Neler Değişiyor?",
+      "excerpt": "Anthropic'in yeni amiral gemisi modeli, uzun vadeli akıl yürütme ve çok adımlı ajan görevlerinde çarpıcı iyileştirmeler sunuyor.",
+      "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&q=80",
+      "body": "Anthropic, Claude 4 Opus'u resmi olarak duyurdu. Bu yeni model, özellikle **uzun vadeli akıl yürütme** ve **çok adımlı ajan görevleri** konusunda önceki versiyonlara kıyasla ciddi sıçramalar yapıyor.\n\n## Öne Çıkan Özellikler\n\n**Extended Thinking Modu:** Model artık bir problemi yanıtlamadan önce kendi kendine uzun süre düşünebiliyor. Bu özellik özellikle matematik, kodlama ve strateji problemlerinde büyük fark yaratıyor.\n\n**Ajan Güvenilirliği:** Claude 4 Opus, uzun süreli görevlerde yön kaybetmeden çalışabiliyor. Önceki modellerde yaşanan 'orta yolda savrulma' problemi büyük ölçüde aşılmış.\n\n**Bağlam Penceresi:** 200K token bağlam penceresi korunurken, uzun bağlamlarda bilgi erişim kalitesi artırılmış.\n\n## Fiyatlandırma\n\nGiriş tokeni başına $15, çıkış tokeni başına $75 olarak belirlendi. Extended Thinking modunda bu rakamlar %20 artıyor.\n\n## Benim İzlenimim\n\nİlk testlerimde Claude 4 Opus'un özellikle karmaşık refactoring görevlerinde ve çok dosyalı proje analizlerinde dikkat çekici sonuçlar verdiğini gözlemledim. GPT-4o ile karşılaştırdığımda Opus'un daha az 'halüsinasyon' ürettiğini fark ettim.",
+      "date": "20 Nis 2025",
+      "readTime": "5",
+      "isNew": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "category": "Araç",
+      "title": "Cursor'un Yeni Ajan Modu ile Tanışın",
+      "excerpt": "AI editörler artık sadece kod tamamlamıyor; proje boyutunda görevleri bağımsız olarak yürütebiliyor.",
+      "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=900&q=80",
+      "body": "Cursor'un yeni **Ajan Modu**, yapay zeka destekli kod editörlerinin evriminde önemli bir dönüm noktası. Artık sadece tek satır öneriler değil, tüm proje çapında bağımsız görevler yürütülebiliyor.\n\n## Ne Yapabiliyor?\n\n**Proje Boyutunda Görevler:** 'Bu projeye authentication ekle' gibi bir komut verdiğinizde Ajan Modu gerekli dosyaları oluşturuyor, mevcut kodu güncelliyor ve testleri yazıyor.\n\n**Terminal Erişimi:** Ajan artık terminale komut gönderebiliyor. npm install, git commit, test çalıştırma gibi işlemleri otomatik yapabiliyor.\n\n**Hata Döngüsü:** Bir hata alındığında ajan kendi kendine debug yapıp düzeltmeye çalışıyor. Bu döngü başarıya ulaşana veya kullanıcı müdahalesine ihtiyaç duyulana kadar devam ediyor.\n\n## Dikkat Edilmesi Gerekenler\n\nAjan modunu kullanırken dosya izinlerini ve terminal komutlarını dikkatli izleyin. Ajan bazen gereğinden fazla dosya değiştirebiliyor. Her session için bir checkpoint tutmak iyi bir alışkanlık.",
+      "date": "17 Nis 2025",
+      "readTime": "4",
+      "isNew": true,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "category": "Araştırma",
+      "title": "LLM Halüsinasyonlarını Azaltmanın 5 Yolu",
+      "excerpt": "Retrieval-augmented generation ve structured output tekniklerini karşılaştırdım.",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=900&q=80",
+      "body": "LLM halüsinasyonları üretim ortamlarındaki en büyük güven sorunlarından biri. Son altı ayda farklı teknikler üzerinde kapsamlı testler yaptım. İşte en etkili beş yöntem:\n\n## 1. Retrieval-Augmented Generation (RAG)\n\nModelin kendi parametrik bilgisine değil, dış bir bilgi tabanına dayandırılması. Özellikle güncel veya niche bilgi gerektiren görevlerde halüsinasyon oranını %60-70 azaltıyor.\n\n## 2. Structured Output\n\nModeli JSON veya belirli bir şema çıktısına zorlamak, anlamsız üretimi azaltıyor. OpenAI'nin `response_format: json_object` parametresi ve Anthropic'in tool use özelliği bu iş için ideal.\n\n## 3. Chain-of-Thought Prompting\n\nModelin yanıtlamadan önce adım adım düşünmesini istemek, özellikle faktüel sorularda doğruluğu artırıyor.\n\n## 4. Grounding ile Verification\n\nModel çıktısını bir grounding modeli ile doğrulatmak. Pahalı ama kritik uygulamalar için değer.\n\n## 5. Temperature Ayarı\n\nFaktüel görevlerde temperature'ı 0.0-0.2 arasında tutmak, yaratıcılıktan çok tutarlılık gerektiren görevlerde belirgin fark yaratıyor.",
+      "date": "12 Nis 2025",
+      "readTime": "7",
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "category": "Model",
+      "title": "Gemini 2.0 Pro Kod Oluşturmada Öne Çıkıyor",
+      "excerpt": "Google'ın yeni modeli, özellikle Python ve TypeScript'te dikkat çekici sonuçlar üretiyor.",
+      "image": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=900&q=80",
+      "body": "Google'ın Gemini 2.0 Pro modeli, özellikle kod üretimi görevlerinde rakiplerini zorlayan sonuçlar üretiyor. HumanEval ve MBPP benchmark'larında GPT-4o'yu geride bırakıyor.\n\n## Güçlü Yönleri\n\n**Python Ekosistemi:** FastAPI, SQLAlchemy ve Pydantic kombinasyonunda hata oranı oldukça düşük. Boilerplate kod üretiminde en hızlı model.\n\n**TypeScript/React:** Özellikle React hooks ve TypeScript tip tanımlamalarında GPT-4o ile rekabet edebilir seviyede.\n\n**Uzun Dosya Anlama:** 1 milyonluk token bağlam penceresi sayesinde büyük kod tabanlarını tek seferde analiz edebiliyor.\n\n## Zayıf Yönleri\n\nRust ve Go gibi daha niş dillerde Claude ve GPT-4o gerisinde kalıyor. Ayrıca complex architectural kararlar söz konusu olduğunda zaman zaman tutarsız öneriler üretiyor.",
+      "date": "9 Nis 2025",
+      "readTime": "4",
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "category": "Araç",
+      "title": "Windsurf vs Cursor: Uzun Vadeli Kullanım Karşılaştırması",
+      "excerpt": "3 ay iki editörü paralel kullandım. İşte dürüst izlenimlerim.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900&q=80",
+      "body": "Üç ay boyunca hem Cursor hem Windsurf kullandım. Sonuç net olmasa da bazı tercih noktaları netleşti.\n\n## Cursor'un Öne Çıktığı Alanlar\n\n- Ajan modu ve terminal entegrasyonu daha olgun\n- `.cursorrules` ile proje bazlı kişiselleştirme güçlü\n- Multi-file edit (Composer) özelliği gerçekten işe yarıyor\n- Topluluk ve ekosistem daha geniş\n\n## Windsurf'ün Öne Çıktığı Alanlar\n\n- Cascade özelliği akıl yürütme zincirini kullanıcıya görünür yapıyor\n- Bazı refactoring görevlerinde daha doğal hissettiriyor\n- UI/UX açısından biraz daha temiz\n\n## Sonuç\n\nCursor hâlâ birincil tercihim. Windsurf iyi bir alternatif ama Cursor'un ajan modu ve ekosistemi şu an bir adım önde. 2025 sonunda tablo değişebilir.",
+      "date": "5 Nis 2025",
+      "readTime": "8",
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "category": "Araştırma",
+      "title": "Ajanlar Arası İletişim: MCP Protokolü Nedir?",
+      "excerpt": "Model Context Protocol, AI araçlarının birbirleriyle nasıl konuştuğunu standartlaştırıyor.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&q=80",
+      "body": "Model Context Protocol (MCP), Anthropic tarafından geliştirilen ve AI ajan ekosisteminde hızla standart haline gelen bir iletişim protokolü.\n\n## Sorun Ne?\n\nHer AI aracı şimdiye kadar kendi API formatını kullanıyordu. Bir ajanın başka bir araçla veya servisle konuşması için custom entegrasyon yazılması gerekiyordu. Bu durum ekosistemi parçalıyor ve geliştirme maliyetini artırıyordu.\n\n## MCP Ne Getiriyor?\n\n**Standart Araç Tanımı:** Herhangi bir servis, MCP şemasına uygun araç tanımları yayınlayabiliyor. AI ajanlar bu tanımları okuyarak aracı nasıl kullanacağını anlayabiliyor.\n\n**Bağlam Paylaşımı:** Ajanlar arasında structured context transferi mümkün hale geliyor.\n\n**Güvenlik Katmanı:** İzin sistemi ve sandbox çalışma prensibi yerleşik olarak geliyor.\n\n## Pratik Kullanım\n\nCursor, bu projedeki `.ai/` klasöründe MCP araçlarını tanımlamak için zaten kullanıyor. GitHub, Slack, Notion gibi popüler araçların MCP entegrasyonları giderek artıyor.",
+      "date": "1 Nis 2025",
+      "readTime": "6",
+      "isNew": false,
+      "featured": false
+    }
+  ]
+}
